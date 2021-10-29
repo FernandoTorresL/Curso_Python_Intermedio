@@ -10,7 +10,7 @@
 
 ### Description
 
-This [course](https://platzi.com/clases/python-intermedio/) is part of Python Challenge, 2021
+This [course](https://platzi.com/clases/python-intermedio/) is part of [Python Challenge, 2021](https://platzi.com/blog/python-challenge/)
 
 Previous course: [Curso básico de Python](https://platzi.com/clases/python/)
 
