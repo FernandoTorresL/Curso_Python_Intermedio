@@ -6,10 +6,12 @@ def divisors(num):
     return divisors
 
 def run():
-    num = int(input("Ingresa un número: "))
-    print(divisors(num))
-    print("Terminó mi programa")
-
+    try:
+        num = int(input("Ingresa un número: "))
+        print(divisors(num))
+        print("Terminó mi programa")
+    except ValueError:
+        print("Debes ingresar un número")
 
 if __name__ == '__main__':
     run()
