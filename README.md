@@ -1,6 +1,7 @@
-# Python Challenge, Platzi, 2021
+# Curso de Python Intermedio, version 2021
+## Comprehensions, Lambdas y Manejo de Errores
 
-## (Curso de Python Intermedio - Comprehensions, Lambdas y Manejo de Errores, version 2021)
+### This course is part of [Python Challenge](https://platzi.com/blog/python-challenge/), Platzi, 2021
 
 <a href="https://github.com/FernandoTorresL/Curso_Python_Intermedio/commits/main" target="_blank">![GitHub last commit](https://img.shields.io/github/last-commit/FernandoTorresL/Curso_Python_Intermedio)</a>
 
@@ -9,20 +10,41 @@
 ---
 
 ### Description
+Course Professor: Facundo García Martoni, [@facmartoni](https://twitter.com/facmartoni)
 
 This [course](https://platzi.com/clases/python-intermedio/) is part of [Python Challenge, 2021](https://platzi.com/blog/python-challenge/)
 
-Previous course: [Curso básico de Python](https://platzi.com/clases/python/)
+Courses on this challenge:
+[Curso Básico de Python](https://platzi.com/clases/python/)
+[Curso Profesional de Python - Comprehensions, Lambdas y Manejo de Errores](https://platzi.com/clases/python-profesional/)
+[Curso Profesional de Python](https://platzi.com/clases/python-profesional/)
 
-Next course: [Curso Profesional de Python](https://platzi.com/clases/python-profesional/)
+Optional Courses:
+[Curso de FastAPI: Fundamentos, Path Operations y Validaciones](https://platzi.com/cursos/fastapi/)
+[Curso de Entorno de Trabajo para Ciencia de Datos con Jupyter Notebooks y Anaconda](https://platzi.com/cursos/jupyter-notebook/)
 
-Course Professor: Facundo García Martoni, [@facmartoni](https://twitter.com/facmartoni)
+
+### [Curso Profesional de Python - Comprehensions, Lambdas y Manejo de Errores](https://platzi.com/clases/python-profesional/)
+In this course we learn:
+
+- Zen de Python
+- Official Python documentation
+- Virtual environments (venv)
+- Use of pip
+- Anaconda
+- Lists and dicts
+- Lists and dicts comprehensions
+- Lambda function
+- High order functions: filter, map, reduce
+- Debugging and Handling errors
+- Exceptions and asserts
+- Working with files
+
+Final project: Hangman Game (Work in progress)
 
 ---
 
-## Installation
-
-How start to work/colaborate with this project:
+### Installation
 
 #### Clone this repo
 
