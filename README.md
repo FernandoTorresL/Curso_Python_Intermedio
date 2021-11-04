@@ -1,4 +1,4 @@
-# Curso de Python Intermedio, version 2021
+# Curso de Python Intermedio, v2021
 ## Comprehensions, Lambdas y Manejo de Errores
 
 ### This course is part of [Python Challenge](https://platzi.com/blog/python-challenge/), Platzi, 2021
