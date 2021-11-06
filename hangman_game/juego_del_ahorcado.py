@@ -1,10 +1,16 @@
+def read_file():
+    words = []
+    with open("./archivos/data.txt", "r", encoding="utf-8") as f:
+        palabras = f.readlines()
+    #     for word in f:
+    #         # words.append((word, end=''))
+    #         words.append(print(word, end=''))
+    # print(words)
+    print(palabras)
+
 def run():
-    pass
-
-
-if __name__ == '__main__':
-    run()
     # Read word's file
+    read_file()
     # Get one random word
     # Print the game interface
         #  Print blank spaces for the choosen word
@@ -20,3 +26,7 @@ if __name__ == '__main__':
                 # If is the last try,
                     # ...print LOSE
                 # ...or ask for another letter (cicle)
+
+
+if __name__ == '__main__':
+    run()
