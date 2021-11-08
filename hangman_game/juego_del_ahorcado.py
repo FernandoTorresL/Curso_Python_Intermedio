@@ -1,12 +1,10 @@
 def read_file():
     words = []
     with open("./archivos/data.txt", "r", encoding="utf-8") as f:
-        palabras = f.readlines()
-    #     for word in f:
-    #         # words.append((word, end=''))
-    #         words.append(print(word, end=''))
-    # print(words)
-    print(palabras)
+        for word in f:
+            word2 = word.strip().upper()
+            words.append(word2)
+    print(words)
 
 def run():
     # Read word's file
