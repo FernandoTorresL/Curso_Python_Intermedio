@@ -1,15 +1,34 @@
+import random
+
 def read_file():
     words = []
     with open("./archivos/data.txt", "r", encoding="utf-8") as f:
         for word in f:
-            word2 = word.strip().upper()
-            words.append(word2)
+            word = word.strip()
+            words.append(word)
     print(words)
+    return words
+
+def get_random_word(words):
+    upper_limit = len(words)
+    print("Cantidad de palabras: ", upper_limit)
+
+    random_index = random.randint(0, upper_limit)
+    print("Indice al azar: ", random_index)
+
+    return words[random_index]
 
 def run():
     # Read word's file
-    read_file()
+    words = []
+    words = read_file()
+
     # Get one random word
+    word = get_random_word(words)
+    print("La palabra elegida al azar es: ", word)
+
+    print()
+
     # Print the game interface
         #  Print blank spaces for the choosen word
     # Get an input letter from the user
