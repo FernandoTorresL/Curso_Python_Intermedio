@@ -32,6 +32,17 @@ def draw_interface(word):
     for i in range(1, word_length + 1):
         letters_spaces = letters_spaces + "_ "
     print (letters_spaces)
+    print()
+
+def input_letter():
+    try:
+        letter = (input("Ingresa una letra: "))
+        if not letter.isalpha() or len(letter) != 1 :
+            raise ValueError("Debes ingresar sólo letras y una letra a la vez (sin acentos)")
+    except ValueError as ve:
+        print(ve)
+
+    return letter
 
 
 def run():
@@ -47,10 +58,12 @@ def run():
         #  Print blank spaces for the choosen word
     draw_interface(word)
 
-    print()
-
     # Get an input letter from the user
         # Validate the input letter
+    letter = input_letter()
+    print("La letra ingresada es: ", letter)
+
+    print()
     # Compare the input with the letters from the choosen word
         # Show in screen if the letter was correct or not:
             # If is correct
