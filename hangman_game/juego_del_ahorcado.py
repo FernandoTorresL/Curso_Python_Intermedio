@@ -18,6 +18,22 @@ def get_random_word(words):
 
     return words[random_index]
 
+def draw_interface(word):
+    print()
+    print("_  _ ____ _  _ ____ _  _ ____ _  _    ____ ____ _  _ ____ ")
+    print("|__| |__| |\ | | __ |\/| |__| |\ |    | __ |__| |\/| |___ ")
+    print("|  | |  | | \| |__] |  | |  | | \|    |__] |  | |  | |___ ")
+    print("                                                          ")
+    print()
+
+    word_length = len(word)
+
+    letters_spaces = ""
+    for i in range(1, word_length + 1):
+        letters_spaces = letters_spaces + "_ "
+    print (letters_spaces)
+
+
 def run():
     # Read word's file
     words = []
@@ -27,10 +43,12 @@ def run():
     word = get_random_word(words)
     print("La palabra elegida al azar es: ", word)
 
-    print()
-
     # Print the game interface
         #  Print blank spaces for the choosen word
+    draw_interface(word)
+
+    print()
+
     # Get an input letter from the user
         # Validate the input letter
     # Compare the input with the letters from the choosen word
